@@ -1,0 +1,171 @@
+/* 1 */
+.curve-1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.curve-1 svg {
+  position: relative;
+  display: block;
+  width: calc(119% + 1.3px);
+  height: 200px;
+}
+
+.curve-1 .shape-fill {
+  fill: var(--blue);
+}
+
+/* 2 */
+.curve-2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.curve-2 svg {
+  position: relative;
+  display: block;
+  width: calc(188% + 1.3px);
+  height: 257px;
+}
+
+.curve-2 .shape-fill {
+  fill: var(--creamy);
+}
+
+/* 3 */
+.curve-3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.curve-3 svg {
+  position: relative;
+  display: block;
+  width: calc(300% + 1.3px);
+  height: 228px;
+}
+
+.curve-3 .shape-fill {
+  fill: var(--pink);
+}
+
+/* 4 */
+.curve-4 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.curve-4 svg {
+  position: relative;
+  display: block;
+  width: calc(136% + 1.3px);
+  height: 96px;
+}
+
+.curve-4 .shape-fill {
+  fill: var(--beige);
+}
+
+/* 5 */
+.curve-5 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.curve-5 svg {
+  position: relative;
+  display: block;
+  width: calc(117% + 1.3px);
+  height: 120px;
+}
+
+.curve-5 .shape-fill {
+  fill: var(--purple);
+}
+
+/* 6 */
+.curve-6 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.curve-6 svg {
+  position: relative;
+  display: block;
+  width: calc(117% + 1.3px);
+  height: 120px;
+}
+
+.curve-6 .shape-fill {
+  fill: var(--blue);
+}
+
+/* 7 */
+.curve-7 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.curve-7 svg {
+  position: relative;
+  display: block;
+  width: calc(300% + 1.3px);
+  height: 228px;
+}
+
+.curve-7 .shape-fill {
+  fill: var(--red);
+}
+
+/* 8 */
+.curve-8 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.curve-8 svg {
+  position: relative;
+  display: block;
+  width: calc(154% + 1.3px);
+  height: 84px;
+}
+
+.curve-8 .shape-fill {
+  fill: var(--navy);
+}

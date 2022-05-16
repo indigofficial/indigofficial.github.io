@@ -1,0 +1,8 @@
+TO-DO LIST:
+===========
+
+👉 Bad practice to put empty divs in code, especially things I wrote in like:
+
+<div class="space"></div>
+
+That was only a temporarily fix, but in newer commits, I will be updating it soon.

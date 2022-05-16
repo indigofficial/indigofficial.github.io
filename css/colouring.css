@@ -1,0 +1,12 @@
+.colouring-pages a {
+  text-decoration: none;
+}
+
+.colouring {
+  height: 400px;
+}
+
+.colouring-pages img {
+  border: 8px solid var(--navy);
+  border-radius: 20px;
+}

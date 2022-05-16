@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500&family=Zen+Kaku+Gothic+New:wght@300;400;500;700&display=swap");
+
+:root {
+  --white: #fff;
+  --grey: #343434;
+  --black: #000;
+  --navy: #303989;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  background-color: var(--navy);
+}
+
+.left-text {
+  float: left;
+  padding-right: 90px;
+  padding-top: 200px;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 145px;
+  transition: transform 0.5s;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover i {
+  color: var(--white);
+  transition: 0.3s;
+}
+
+i {
+  font-size: 50px;
+  color: var(--lightest-indigo);
+}
+
+img {
+  width: 900px;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+.container {
+  padding: 30px;
+}

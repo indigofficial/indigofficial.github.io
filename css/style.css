@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Mali:wght@200;400&display=swap");
+
+:root {
+  --white: #fff;
+  --grey: #343434;
+  --black: #000;
+  --indigo: #341948;
+  --light-indigo: #7435a8;
+  --cornflower-blue: #929aff;
+  --dark-cornflower-blue: rgb(100, 102, 155);
+  --blue: #75c5ff;
+  --beige: #f7e7eb;
+  --creamy: #f6e6c2;
+  --red: #ffaab8;
+  --pink: #feb5fc;
+  --purple: #9e65ff;
+  --green: #6dd99d;
+  --navy: #303989;
+  --tt-commons-regular: "TT Commons Regular", sans-serif;
+}
+
+@font-face {
+  font-family: "TT Commons Regular";
+  font-weight: 100;
+  src: url("/fonts/tt-commons-regular.otf");
+}
+
+::selection {
+  color: var(--beige);
+  background: var(--navy);
+}
+
+body,
+html {
+  font-family: var(--tt-commons-regular);
+  scroll-behavior: smooth;
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+h1 {
+  color: var(--grey);
+  font-family: var(--tt-commons-regular);
+  font-size: 90px;
+}
+
+p {
+  color: var(--grey);
+  font-family: var(--tt-commons-regular);
+  font-size: 30px;
+}
+
+.text-container {
+  display: inline;
+  width: 900px;
+}
+
+.center {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Space */
+.space {
+  padding: 80px;
+}
+
+.space-small {
+  padding: 20px;
+}
+
+.space-tiny {
+  padding: 5px;
+}
+
+/* Images */
+.gif-border {
+  border: var(--red) 10px solid;
+  border-radius: 50px;
+}
+
+.photo {
+  height: 500px;
+  border: var(--navy) 10px solid;
+  border-radius: 50px;
+}

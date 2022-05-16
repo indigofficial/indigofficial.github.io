@@ -1,0 +1,22 @@
+/* Mint */
+.mint-btn-large {
+  font-family: var(--tt-commons-regular);
+  font-size: 25px;
+  text-decoration: none;
+  color: var(--white);
+
+  border-bottom: solid 4px var(--indigo);
+  border-radius: 50px;
+
+  padding: 0.5em 1em;
+  display: inline-block;
+  background: var(--light-indigo);
+}
+
+.mint-btn-large:active {
+  -ms-transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+
+  border-bottom: none;
+}

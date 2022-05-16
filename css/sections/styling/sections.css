@@ -1,0 +1,100 @@
+/* Sections */
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+  padding-top: 100px;
+}
+
+.blue {
+  background: var(--blue);
+}
+
+.dark-purple {
+  background: var(--dark-purple);
+}
+
+.creamy {
+  background: var(--creamy);
+}
+
+.beige {
+  background: var(--beige);
+}
+
+.red {
+  background: var(--red);
+}
+
+.pink {
+  background: var(--pink);
+}
+
+.purple {
+  background: var(--purple);
+}
+
+.navy {
+  background: var(--navy);
+  color: var(--beige);
+}
+
+/* Headers */
+.beige span {
+  color: var(--purple);
+}
+
+.red span {
+  color: var(--navy);
+}
+
+.red a {
+  padding: 5px;
+  font-size: 20px;
+  font-family: var(--tt-commons-regular);
+  color: var(--navy);
+  text-decoration: none;
+}
+
+.creamy span {
+  color: var(--navy);
+}
+
+.creamy a {
+  padding: 5px;
+  font-size: 20px;
+  font-family: var(--tt-commons-regular);
+  color: var(--navy);
+  text-decoration: none;
+}
+
+.pink span {
+  color: var(--light-indigo);
+}
+
+.purple h1 {
+  color: var(--beige);
+}
+
+.purple span {
+  color: var(--pink);
+}
+
+.purple p {
+  color: var(--beige);
+}
+
+.blue span {
+  color: var(--navy);
+}
+
+.navy a {
+  color: #aef8e9;
+}
+
+.link a {
+  color: var(--light-indigo);
+  text-decoration: none;
+}

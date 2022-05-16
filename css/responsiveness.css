@@ -1,0 +1,270 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 70px;
+    padding-left: 30px;
+  }
+
+  .text-container {
+    display: inline;
+    width: 300px;
+  }
+
+  /* Images */
+  #home img {
+    height: 345px;
+    padding-bottom: 40px;
+  }
+
+  #story img {
+    height: 270px;
+  }
+
+  #qomics img {
+    height: 350px;
+  }
+
+  .photo {
+    height: 200px;
+  }
+
+  /* Roadmap */
+  main {
+    min-width: 100px;
+    max-width: 300px;
+
+    margin: auto;
+    padding: 5px;
+  }
+
+  .timeline p {
+    color: var(--grey);
+    font-size: 25px;
+
+    border-top: 3px solid;
+    border-image: linear-gradient(
+      to right,
+      var(--light-indigo) 0%,
+      var(--purple) 100%
+    );
+    border-image-slice: 1;
+    border-width: 3px;
+
+    margin: 0;
+    padding: 40px;
+    counter-increment: section;
+    position: relative;
+    line-height: 1.75em;
+  }
+
+  /* Profile */
+  .profile {
+    padding-left: 10px;
+  }
+
+  .avatar {
+    border: 8px solid var(--light-indigo);
+    border-radius: 50%;
+  }
+
+  .about-me {
+    display: flex;
+    align-items: center;
+    padding: 3rem 5% 2rem;
+  }
+
+  /* Speech Bubble */
+  .speech-bubble {
+    font-family: var(--tt-commons-regular);
+    font-size: 1.6em;
+    color: var(--white);
+
+    padding: 1.125em 1.5em;
+    position: relative;
+
+    max-width: 30em;
+    background-color: var(--light-indigo);
+    border-radius: 1rem;
+    box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.3),
+      0 0.0625rem 0.125rem rgba(0, 0, 0, 0.2);
+  }
+
+  .speech-bubble::before {
+    content: "";
+    position: absolute;
+
+    width: 0;
+    height: 0;
+
+    bottom: 100%;
+    left: 1.5em;
+
+    border: 0.75rem solid transparent;
+    border-top: none;
+    border-bottom-color: var(--light-indigo);
+
+    filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, 0.1));
+  }
+
+  /* Colouring Pages */
+  .colouring {
+    height: 400px;
+  }
+
+  .colouring-pages {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  h1 {
+    padding-left: 50px;
+  }
+
+  .text-container {
+    display: inline;
+    width: 500px;
+  }
+
+  /* Images */
+  #home img {
+    height: 650px;
+  }
+
+  #story img {
+    height: 500px;
+  }
+
+  #qomics img {
+    height: 550px;
+  }
+
+  .photo {
+    height: 340px;
+  }
+
+  /* Profile */
+  .profile {
+    padding-left: 10px;
+  }
+
+  .avatar {
+    border: 8px solid var(--light-indigo);
+    border-radius: 50%;
+  }
+
+  .about-me {
+    display: flex;
+    align-items: center;
+    padding: 3rem 5% 2rem;
+  }
+
+  /* Speech Bubble */
+  .speech-bubble {
+    font-family: var(--tt-commons-regular);
+    font-size: 1.7em;
+    color: var(--white);
+
+    padding: 1.125em 1.5em;
+    position: relative;
+
+    max-width: 30em;
+    background-color: var(--light-indigo);
+    border-radius: 1rem;
+    box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.3),
+      0 0.0625rem 0.125rem rgba(0, 0, 0, 0.2);
+  }
+
+  .speech-bubble::before {
+    content: "";
+    position: absolute;
+
+    width: 0;
+    height: 0;
+
+    bottom: 100%;
+    left: 1.5em;
+
+    border: 0.75rem solid transparent;
+    border-top: none;
+    border-bottom-color: var(--light-indigo);
+
+    filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, 0.1));
+  }
+
+  /* Colouring Pages */
+  .colouring {
+    height: 550px;
+  }
+
+  .colouring-pages {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 700px) {
+  h1 {
+    color: var(--grey);
+    font-family: var(--tt-commons-regular);
+    font-size: 90px;
+  }
+
+  .text-container {
+    display: inline;
+    width: 500px;
+  }
+
+  /* Images */
+  #home img {
+    height: 650px;
+  }
+
+  #story img {
+    height: 550px;
+  }
+
+  #qomics img {
+    height: 750px;
+  }
+
+  .photo {
+    height: 500px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  h1 {
+    color: var(--grey);
+    font-family: var(--tt-commons-regular);
+    font-size: 90px;
+  }
+
+  .text-container {
+    display: inline;
+    width: 900px;
+  }
+
+  /* Images */
+  #home img {
+    height: 650px;
+  }
+
+  #story img {
+    height: 550px;
+  }
+
+  #qomics img {
+    height: 750px;
+  }
+
+  .photo {
+    height: 500px;
+  }
+}
