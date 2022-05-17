@@ -107,6 +107,7 @@
   flex-direction: column;
 
   background: var(--white);
+  text-align: center;
   border-radius: 1.75rem;
 
   margin: 0;
@@ -140,7 +141,7 @@
 
 @media (min-width: 56.25rem) {
   .nav_link {
-    padding: 0 1.5rem;
+    padding: 0 1rem;
   }
 }
 

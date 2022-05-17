@@ -2,20 +2,18 @@
 
 :root {
   --white: #fff;
-  --grey: #343434;
-  --black: #000;
-  --indigo: #341948;
-  --light-indigo: #7435a8;
-  --cornflower-blue: #929aff;
-  --dark-cornflower-blue: rgb(100, 102, 155);
-  --blue: #75c5ff;
   --beige: #f7e7eb;
   --creamy: #f6e6c2;
   --red: #ffaab8;
   --pink: #feb5fc;
   --purple: #9e65ff;
-  --green: #6dd99d;
+  --light-indigo: #7435a8;
+  --indigo: #341948;
   --navy: #303989;
+  --blue: #75c5ff;
+  --green: #6dd99d;
+  --grey: #343434;
+  --black: #000;
   --tt-commons-regular: "TT Commons Regular", sans-serif;
 }
 
