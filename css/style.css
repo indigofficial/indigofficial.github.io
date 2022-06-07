@@ -84,3 +84,7 @@ p {
   border: var(--navy) 10px solid;
   border-radius: 50px;
 }
+
+.quokka-cursor {
+  cursor: url(../images/cursor.png), auto;
+}

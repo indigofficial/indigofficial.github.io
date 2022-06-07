@@ -80,6 +80,7 @@ section {
 
 .purple span {
   color: var(--pink);
+  cursor: url(../../../images/cursor.png), auto;
 }
 
 .purple p {
